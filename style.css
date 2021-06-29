@@ -1,0 +1,70 @@
+body
+{
+	background-image: url("background.png");
+}
+.logo
+{
+	display:flex;
+	justify-content:center;
+}
+.searchbox
+{
+	display:flex;
+	justify-content:center;
+	margin-bottom:60px;
+}
+#value{
+	width:750px;
+  background: none;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #000000;
+  padding: 10px 6px;
+  font-size: 14px;
+}
+.container
+{
+	margin-top: 80px;
+	background-color:#FFFFFF;
+	height:900px;
+	color:#000000;
+	text-align:center;
+	font-family: 'Nunito', sans-serif;
+	font-size:30px;
+}
+.files
+{
+		padding:29px;
+}
+
+a
+{
+	text-decoration: none;
+	list-style: none;
+	color:#000000;
+	list-style-type: none;
+}
+ul
+{
+	list-style-type: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	font-size:20px;
+}
+li
+{
+	padding:20px;
+	text-align:left;
+}
+.filelist
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	
+}
+.inputfile
+{
+	background-color: lightblue;
+}
